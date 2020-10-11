@@ -10,7 +10,7 @@ function App() {
         React Tailwind Template
       </header>
       <main className="flex-grow py-20 mx-auto">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo mx-auto" alt="logo" />
         <div>
           <a
             href="https://github.com/AsiwajuDev/react-with-tailwind-template"
