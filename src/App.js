@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
+// import MadeInNigeria from "./assets/images/nigeria.gif";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         </div>
       </main>
       <footer>
+        {/* <img src={MadeInNigeria} alt="Nigerian Flag" className="mx-auto w-16" />
+        <p>Proudly Nigerian</p> */}
         <div class="flex justify-center border-t-2 py-3">
           <p class="text-base text-black font-semibold mb-2">
             Created by
