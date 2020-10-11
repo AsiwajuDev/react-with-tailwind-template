@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
       <header class="text-center p-5 text-3xl md:text-5xl font-semibold bg-red-600 border-b-4">
         React Tailwind Template
       </header>
-      <main class="flex-grow py-20">
-        <img src={logo} className="logo mx-auto" alt="logo" />
+      <main class="flex-grow py-20 mx-auto">
+        <img src={logo} className="App-logo" alt="logo" />
         <div>
           <a
             href="https://github.com/AsiwajuDev/react-with-tailwind-template"
