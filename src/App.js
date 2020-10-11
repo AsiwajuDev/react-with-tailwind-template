@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="text-center">
+      <div className="bg-red-600 mb-20">
+        <header className="text-5xl font-bold">React Tailwind Template</header>
+      </div>
+      <div className="mx-auto">
+        <img src={logo} className="w-64 mx-auto mb-20" alt="logo" />
+      </div>
+
+      <div>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://github.com/AsiwajuDev/react-with-tailwind-template"
+          className="text-gray-500 hover:underline"
         >
-          Learn React
+          Click here to view code on Github
         </a>
-      </header>
+      </div>
     </div>
   );
 }
