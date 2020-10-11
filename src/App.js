@@ -5,11 +5,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div class="flex flex-col bg-blue-700 min-h-screen text-center">
-      <header class="text-center p-5 text-3xl md:text-5xl font-semibold bg-red-600 border-b-4">
+    <div className="flex flex-col bg-blue-700 min-h-screen text-center">
+      <header className="text-center p-5 text-3xl md:text-5xl font-semibold bg-red-600 border-b-4">
         React Tailwind Template
       </header>
-      <main class="flex-grow py-20 mx-auto">
+      <main className="flex-grow py-20 mx-auto">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           <a
@@ -23,8 +23,8 @@ function App() {
       <footer>
         {/* <img src={MadeInNigeria} alt="Nigerian Flag" className="mx-auto w-16" />
         <p>Proudly Nigerian</p> */}
-        <div class="flex justify-center border-t-2 py-3">
-          <p class="text-base text-black font-semibold mb-2">
+        <div className="flex justify-center border-t-2 py-3">
+          <p className="text-base text-black font-semibold mb-2">
             Created by
             <a
               href="https://github.com/AsiwajuDev"
