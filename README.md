@@ -2,7 +2,7 @@
 
 Just a React template with Tailwind CSS setup
 
-[View Demo](https://react-tailwind-template-demo.netlify.app/)
+[View Demo](tailwind-react-template.netlify.app)
 
 ## Usage:
 
